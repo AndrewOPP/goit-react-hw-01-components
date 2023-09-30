@@ -1,10 +1,10 @@
 import { Profile } from 'components/Profile';
 import { Statistics } from 'components/Statistics';
 import { Friends } from 'components/Friends';
-import data from '../user.json';
-import dataStat from '../data.json';
-import dataFriends from '../friends.json';
-import datatransactions from '../transactions.json';
+import data from '../Datas/user.json';
+import dataStat from '../Datas/data.json';
+import dataFriends from '../Datas/friends.json';
+import datatransactions from '../Datas/transactions.json';
 import { Transactions } from './Transactions';
 
 export function App() {
